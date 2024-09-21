@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>قائمة المنتجات القابلة للتصفية</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>قائمة المنتجات</h1>
+    </header>
+
+    <!-- قسم الفلاتر -->
+    <section id="filter-section">
+      <button onclick="filterProducts('All')">الكل</button>
+      <button onclick="filterProducts('Electronics')">إلكترونيات</button>
+      <button onclick="filterProducts('Clothing')">ملابس</button>
+    </section>
+
+    <!-- منطقة عرض المنتجات -->
+    <section id="product-list"></section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
